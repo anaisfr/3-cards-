@@ -1,0 +1,88 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, .btn {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  margin: 20px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  height: 600px;
+}
+
+.card {
+  padding: 40px;
+  height: 500px;
+}
+.card p {
+  font-weight: 400;
+  padding-bottom: 40%;
+}
+
+.one {
+  background-color: #e38826;
+  border-radius: 5px 0 0 5px;
+}
+.one a {
+  color: #e38826;
+}
+
+.two {
+  background-color: #006970;
+}
+.two a {
+  color: #006970;
+}
+
+.three {
+  background-color: #004241;
+  border-radius: 0 5px 5px 0;
+}
+.three a {
+  color: #004241;
+}
+
+.btn {
+  margin-top: 20px;
+  border-radius: 9999px;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+}
+.btn a {
+  text-decoration: none;
+}
+.btn:hover a {
+  color: white;
+}
+.btn:hover .one {
+  background: #e38826;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .btn {
+    padding: 10px 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
