@@ -27,7 +27,6 @@ h2 {
 
 .card {
   padding: 40px;
-  height: 500px;
 }
 .card p {
   font-weight: 400;
@@ -75,9 +74,11 @@ h2 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   .cards {
     flex-direction: column;
+    height: 100%;
+    margin: auto;
   }
 
   .btn {
